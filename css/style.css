@@ -1,0 +1,6 @@
+.container-fluid .hero {
+	background-image: url(../assets/Newport_RI_Restaurants.png);
+	background-size: cover;
+	/* height: 570px; */
+	margin-bottom: 0;
+}

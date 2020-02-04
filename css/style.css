@@ -1,6 +1,37 @@
-.container-fluid .hero {
+#hero {
 	background-image: url(../assets/Newport_RI_Restaurants.png);
 	background-size: cover;
-	/* height: 570px; */
-	margin-bottom: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 700px;
+}
+
+#hero .hero-overlay {
+	position: absolute;
+	/* top: 0; */
+	left: 0;
+	width: 100%;
+	min-height: 700px;
+	background: white;
+	opacity: 0.5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#hero .hero-copy {
+	background: none;
+	text-align: center;
+	position: relative;
+	margin: auto;
+}
+
+#hero .hero-copy h1 {
+	font-weight: 900;
+	font-family: "Heebo", sans-serif;
+}
+
+#hero .hero-copy p {
+	font-weight: 900;
+	font-family: "Montserrat", sans-serif;
 }

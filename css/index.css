@@ -98,6 +98,7 @@ font-family: "Montserrat", sans-serif;
 }
 #info {
   background-color: #e9ecef;
+  display: flex;
 }
 @media (max-width: 500px) {
   #info {
@@ -125,13 +126,17 @@ font-family: "Montserrat", sans-serif;
 #info .container .jumbotron img {
   max-width: 600px;
   padding: 0;
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 @media (max-width: 500px) {
   #info .container .jumbotron img {
     width: 100%;
     margin-bottom: 0;
   }
+}
+#info .container .card {
+  width: 35%;
+  height: 450px;
 }
 @media (max-width: 500px) {
   #info .container .card {

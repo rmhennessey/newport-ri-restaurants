@@ -109,6 +109,11 @@ font-family: "Montserrat", sans-serif;
 
 #info {
 	background-color: #e9ecef;
+
+	@media @phone {
+		margin-top: 40px;
+		background: none;
+	}
 }
 
 #info .container {
@@ -123,10 +128,31 @@ font-family: "Montserrat", sans-serif;
 #info .container .jumbotron {
 	background: none;
 	margin-bottom: 0;
+
+	@media @phone {
+		padding: 0;
+	}
 }
 
 #info .container .jumbotron img {
 	max-width: 600px;
 	padding: 0;
 	margin-bottom: 15px;
+
+	@media @phone {
+		width: 100%;
+		margin-bottom: 0;
+		// margin: auto;
+		// margin-top: 15px;
+	}
+}
+
+#info .container .card {
+	@media @phone {
+		width: 100%;
+		margin-bottom: 15px;
+		height: 100%;
+		// margin: auto;
+		// margin-top: 15px;
+	}
 }

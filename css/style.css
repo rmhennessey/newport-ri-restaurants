@@ -41,6 +41,7 @@
 #best-of {
 	display: flex;
 	flex-direction: row;
+	flex-flow: row wrap;
 	justify-content: space-evenly;
 	margin-bottom: 32px;
 }

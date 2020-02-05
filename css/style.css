@@ -37,3 +37,15 @@
 	font-family: "Montserrat", sans-serif;
 	color: seashell;
 }
+
+#best-of {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#best-of .card .medal h3 {
+	font-size: 7.75rem;
+	text-align: center;
+	margin-top: 12px;
+}

@@ -171,3 +171,43 @@ font-family: "Montserrat", sans-serif;
   width: 30rem;
   align-self: center;
 }
+#lunch-hero {
+  background-image: url(../assets/BEST_LUNCH_NEWPORT_RI.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+#lunch-hero .lunch-hero-overlay {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: gray;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lunch-hero .lunch-hero-copy {
+  background: none;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+#lunch-hero .lunch-hero-copy .display-3 {
+  font-weight: 900;
+  font-family: "Heebo", sans-serif;
+  color: whitesmoke;
+}
+@media (max-width: 500px) {
+  #lunch-hero .lunch-hero-copy .display-3 {
+    font-size: 2.5rem;
+  }
+}
+#lunch-hero .lunch-hero-copy .lead {
+  font-weight: 700;
+  /* font-family: "Montserrat", sans-serif; */
+  color: seashell;
+}

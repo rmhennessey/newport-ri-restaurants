@@ -219,6 +219,11 @@ font-family: "Montserrat", sans-serif;
   margin-bottom: 35px;
   background: none;
 }
+@media (max-width: 500px) {
+  #lunches .container .food-item {
+    margin-bottom: 0;
+  }
+}
 #lunches .container .food-item-right {
   display: flex;
   flex-direction: row;
@@ -226,6 +231,11 @@ font-family: "Montserrat", sans-serif;
   justify-content: center;
   margin-bottom: 35px;
   background: none;
+}
+@media (max-width: 500px) {
+  #lunches .container .food-item-right {
+    margin-bottom: 0;
+  }
 }
 #lunches .container .food-item img {
   max-width: 600px;
@@ -237,6 +247,7 @@ font-family: "Montserrat", sans-serif;
   #lunches .container .food-item img {
     width: 100%;
     margin-bottom: 0;
+    margin-right: 0;
   }
 }
 #lunches .container .food-item-right img {
@@ -249,5 +260,26 @@ font-family: "Montserrat", sans-serif;
   #lunches .container .food-item-right img {
     width: 100%;
     margin-bottom: 0;
+    margin-left: 0;
+  }
+}
+#lunches .container .food-item .card {
+  width: 30%;
+  height: 450px;
+}
+@media (max-width: 500px) {
+  #lunches .container .food-item .card {
+    width: 100%;
+    height: 100%;
+  }
+}
+#lunches .container .food-item-right .card {
+  width: 30%;
+  height: 450px;
+}
+@media (max-width: 500px) {
+  #lunches .container .food-item-right .card {
+    width: 100%;
+    height: 100%;
   }
 }

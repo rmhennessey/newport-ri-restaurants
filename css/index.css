@@ -211,20 +211,42 @@ font-family: "Montserrat", sans-serif;
   /* font-family: "Montserrat", sans-serif; */
   color: seashell;
 }
-#lunches .container .lobster-roll {
+#lunches .container .food-item {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 35px;
+  background: none;
 }
-.lobster-roll img {
+#lunches .container .food-item-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  margin-bottom: 35px;
+  background: none;
+}
+#lunches .container .food-item img {
   max-width: 600px;
   padding: 0;
   margin-bottom: 0;
   margin-right: 30px;
 }
 @media (max-width: 500px) {
-  .lobster-roll img {
+  #lunches .container .food-item img {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+#lunches .container .food-item-right img {
+  max-width: 600px;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+@media (max-width: 500px) {
+  #lunches .container .food-item-right img {
     width: 100%;
     margin-bottom: 0;
   }

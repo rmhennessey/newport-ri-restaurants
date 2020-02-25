@@ -211,3 +211,15 @@ font-family: "Montserrat", sans-serif;
   /* font-family: "Montserrat", sans-serif; */
   color: seashell;
 }
+#lunches .container .lobster-roll {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.lobster-roll img {
+  max-width: 600px;
+  padding: 0;
+  margin-bottom: 0;
+  margin-right: 30px;
+}

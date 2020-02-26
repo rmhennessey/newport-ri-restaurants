@@ -178,7 +178,22 @@ font-family: "Montserrat", sans-serif;
   background-attachment: fixed;
   min-height: 700px;
 }
-#lunch-hero .lunch-hero-overlay {
+@media (max-width: 500px) {
+  #lunch-hero {
+    min-height: 400px;
+  }
+}
+#lunch-hero .meal-bg {
+  min-height: 700px;
+  display: flex;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  #lunch-hero .meal-bg {
+    min-height: 400px;
+  }
+}
+.meal-bg .lunch-hero-overlay {
   position: absolute;
   /* top: 0; */
   left: 0;
@@ -190,23 +205,28 @@ font-family: "Montserrat", sans-serif;
   justify-content: center;
   align-items: center;
 }
-#lunch-hero .lunch-hero-copy {
+@media (max-width: 500px) {
+  .meal-bg .lunch-hero-overlay {
+    min-height: 400px;
+  }
+}
+#lunch-hero .meal-bg .lunch-hero-copy {
   background: none;
   text-align: center;
   position: relative;
   margin: auto;
 }
-#lunch-hero .lunch-hero-copy .display-3 {
+#lunch-hero .meal-bg .lunch-hero-copy .display-3 {
   font-weight: 900;
   font-family: "Heebo", sans-serif;
   color: whitesmoke;
 }
 @media (max-width: 500px) {
-  #lunch-hero .lunch-hero-copy .display-3 {
+  #lunch-hero .meal-bg .lunch-hero-copy .display-3 {
     font-size: 2.5rem;
   }
 }
-#lunch-hero .lunch-hero-copy .lead {
+#lunch-hero .meal-bg .lunch-hero-copy .lead {
   font-weight: 700;
   /* font-family: "Montserrat", sans-serif; */
   color: seashell;

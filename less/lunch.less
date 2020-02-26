@@ -4,9 +4,23 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	min-height: 700px;
+
+	@media @phone {
+		min-height: 400px;
+	}
 }
 
-#lunch-hero .lunch-hero-overlay {
+#lunch-hero .meal-bg {
+	min-height: 700px;
+	display: flex;
+	text-align: center;
+
+	@media @phone {
+		min-height: 400px;
+	}
+}
+
+.meal-bg .lunch-hero-overlay {
 	position: absolute;
 	/* top: 0; */
 	left: 0;
@@ -17,16 +31,20 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	@media @phone {
+		min-height: 400px;
+	}
 }
 
-#lunch-hero .lunch-hero-copy {
+#lunch-hero .meal-bg .lunch-hero-copy {
 	background: none;
 	text-align: center;
 	position: relative;
 	margin: auto;
 }
 
-#lunch-hero .lunch-hero-copy .display-3 {
+#lunch-hero .meal-bg .lunch-hero-copy .display-3 {
 	font-weight: 900;
 	font-family: "Heebo", sans-serif;
 	color: whitesmoke;
@@ -36,7 +54,7 @@
 	}
 }
 
-#lunch-hero .lunch-hero-copy .lead {
+#lunch-hero .meal-bg .lunch-hero-copy .lead {
 	font-weight: 700;
 	/* font-family: "Montserrat", sans-serif; */
 	color: seashell;

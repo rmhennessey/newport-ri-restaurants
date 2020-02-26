@@ -183,6 +183,13 @@ font-family: "Montserrat", sans-serif;
     min-height: 400px;
   }
 }
+@media (max-width: 500px) {
+  #intro .meal .jumbotron {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+  }
+}
 #lunch-hero .meal-bg {
   min-height: 700px;
   display: flex;

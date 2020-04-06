@@ -269,6 +269,75 @@ font-family: "Montserrat", sans-serif;
 	}
 }
 
+#email {
+	// background-image: url(../assets/img/Things_to_do_in_Wyoming_email.jpg);
+	// background-size: cover;
+	// background-repeat: no-repeat;
+	// background-attachment: fixed;
+	// height: 100vw;
+	justify-content: center;
+	display: flex;
+	padding-bottom: 0;
+	margin-bottom: 32px;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	// margin-top: 35px;
+	padding-top: 0;
+}
+
+#email .email-overlay {
+	position: absolute;
+	/* top: 0; */
+	left: 0;
+	width: 100%;
+	// min-height: 100vw;
+	max-height: 620px;
+	background: gray;
+	opacity: 0.5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#email img {
+	height: 100vw;
+	width: 100%;
+	max-height: 620px;
+	opacity: 0.8;
+}
+
+#email .signup {
+	// background-color: blue;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	// color: #002868;
+	background-color: white;
+	border-radius: 20px;
+	padding: 18px;
+	width: 75%;
+	opacity: 0.8;
+
+	@media @phone {
+		padding: 7px;
+		width: 70%;
+	}
+}
+
+#email .signup .container h3 {
+	@media @phone {
+		font-size: 1.2rem;
+	}
+}
+
+#email .signup .container p {
+	@media @phone {
+		font-size: 0.8rem;
+	}
+}
+
 #sign-up {
 	background-image: url(../assets/Newport_RI_Restaurants_Dinner.jpg);
 	background-size: cover;

@@ -213,6 +213,61 @@ font-family: "Montserrat", sans-serif;
     height: 100%;
   }
 }
+#email {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 0;
+  margin-bottom: 32px;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding-top: 0;
+}
+#email .email-overlay {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  max-height: 620px;
+  background: gray;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#email img {
+  height: 100vw;
+  width: 100%;
+  max-height: 620px;
+  opacity: 0.8;
+}
+#email .signup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 20px;
+  padding: 18px;
+  width: 75%;
+  opacity: 0.8;
+}
+@media (max-width: 500px) {
+  #email .signup {
+    padding: 7px;
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  #email .signup .container h3 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 500px) {
+  #email .signup .container p {
+    font-size: 0.8rem;
+  }
+}
 #sign-up {
   background-image: url(../assets/Newport_RI_Restaurants_Dinner.jpg);
   background-size: cover;

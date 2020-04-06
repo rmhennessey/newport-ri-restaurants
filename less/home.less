@@ -62,7 +62,7 @@
 }
 
 #hero .container-fluid h1 {
-	color: lightgoldenrodyellow;
+	color: cornsilk;
 	font-size: 4.5rem;
 	font-weight: 850;
 	line-height: 1.2;
@@ -171,8 +171,12 @@ font-family: "Montserrat", sans-serif;
 }
 
 #info {
-	background-color: #e9ecef;
+	background-color: cornsilk;
 	display: flex;
+
+	@media @tablet {
+		margin: 0;
+	}
 
 	@media @phone {
 		margin-top: 40px;
@@ -187,11 +191,22 @@ font-family: "Montserrat", sans-serif;
 	justify-content: space-evenly;
 	padding: 0;
 	align-items: center;
+
+	@media @tablet {
+		margin: 0;
+		max-width: 100%;
+	}
 }
 
 #info .container .jumbotron {
 	background: none;
 	margin-bottom: 0;
+
+	@media @tablet {
+		padding-bottom: 0;
+		padding-top: 0;
+		margin-top: 15px;
+	}
 
 	@media @phone {
 		padding: 0;
@@ -203,6 +218,10 @@ font-family: "Montserrat", sans-serif;
 	padding: 0;
 	margin-bottom: 0;
 
+	@media @tablet {
+		border-radius: 0.25rem;
+	}
+
 	@media @phone {
 		width: 100%;
 		margin-bottom: 0;
@@ -213,7 +232,12 @@ font-family: "Montserrat", sans-serif;
 
 #info .container .card {
 	width: 35%;
-	height: 450px;
+	// height: 450px;
+
+	@media @tablet {
+		width: 100%;
+		margin-bottom: 15px;
+	}
 
 	@media @phone {
 		width: 100%;

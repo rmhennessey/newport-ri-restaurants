@@ -27,7 +27,7 @@
   font-size: 4.5rem;
   transform: translate(-50%, -50%);
   font-weight: 350;
-  max-width: 505px;
+  max-width: 705px;
 }
 #hero .container-fluid h1 {
   color: lightgoldenrodyellow;
@@ -295,15 +295,57 @@ font-family: "Montserrat", sans-serif;
   align-self: center;
 }
 #lunch-hero {
-  background-image: url(../assets/BEST_LUNCH_NEWPORT_RI.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 700px;
+  justify-content: center;
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
 }
 @media (max-width: 500px) {
   #lunch-hero {
-    min-height: 400px;
+    margin-top: 20px;
+  }
+}
+#lunch-hero img {
+  height: 100vw;
+  width: 100%;
+  max-height: 620px;
+  opacity: 0.8;
+}
+#lunch-hero .container-fluid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 4.5rem;
+  transform: translate(-50%, -50%);
+  font-weight: 350;
+  max-width: 705px;
+}
+#lunch-hero .container-fluid h1 {
+  color: lightgoldenrodyellow;
+  font-size: 4.5rem;
+  font-weight: 850;
+  line-height: 1.2;
+}
+@media (max-width: 500px) {
+  #lunch-hero .container-fluid h1 {
+    font-size: 3rem;
+    font-weight: 710;
+    line-height: 1.2;
+  }
+}
+#lunch-hero .container-fluid p {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+@media (max-width: 500px) {
+  #lunch-hero .container-fluid p {
+    font-size: 1.1rem;
+    font-weight: 400;
   }
 }
 @media (max-width: 500px) {
@@ -312,54 +354,6 @@ font-family: "Montserrat", sans-serif;
     padding-bottom: 16px;
     margin-bottom: 0;
   }
-}
-#lunch-hero .meal-bg {
-  min-height: 700px;
-  display: flex;
-  text-align: center;
-}
-@media (max-width: 500px) {
-  #lunch-hero .meal-bg {
-    min-height: 400px;
-  }
-}
-.meal-bg .lunch-hero-overlay {
-  position: absolute;
-  /* top: 0; */
-  left: 0;
-  width: 100%;
-  min-height: 700px;
-  background: gray;
-  opacity: 0.5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media (max-width: 500px) {
-  .meal-bg .lunch-hero-overlay {
-    min-height: 400px;
-  }
-}
-#lunch-hero .meal-bg .lunch-hero-copy {
-  background: none;
-  text-align: center;
-  position: relative;
-  margin: auto;
-}
-#lunch-hero .meal-bg .lunch-hero-copy .display-3 {
-  font-weight: 900;
-  font-family: "Heebo", sans-serif;
-  color: lightgoldenrodyellow;
-}
-@media (max-width: 500px) {
-  #lunch-hero .meal-bg .lunch-hero-copy .display-3 {
-    font-size: 2.5rem;
-  }
-}
-#lunch-hero .meal-bg .lunch-hero-copy .lead {
-  font-weight: 700;
-  /* font-family: "Montserrat", sans-serif; */
-  color: lightgoldenrodyellow;
 }
 #lunches .container .food-item {
   display: flex;

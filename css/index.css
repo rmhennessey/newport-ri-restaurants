@@ -349,7 +349,7 @@ font-family: "Montserrat", sans-serif;
 #lunch-hero .meal-bg .lunch-hero-copy .display-3 {
   font-weight: 900;
   font-family: "Heebo", sans-serif;
-  color: whitesmoke;
+  color: lightgoldenrodyellow;
 }
 @media (max-width: 500px) {
   #lunch-hero .meal-bg .lunch-hero-copy .display-3 {
@@ -359,7 +359,7 @@ font-family: "Montserrat", sans-serif;
 #lunch-hero .meal-bg .lunch-hero-copy .lead {
   font-weight: 700;
   /* font-family: "Montserrat", sans-serif; */
-  color: seashell;
+  color: lightgoldenrodyellow;
 }
 #lunches .container .food-item {
   display: flex;
@@ -374,24 +374,12 @@ font-family: "Montserrat", sans-serif;
     margin-bottom: 0;
   }
 }
-#lunches .container .food-item-right {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
-  margin-bottom: 35px;
-  background: none;
-}
-@media (max-width: 500px) {
-  #lunches .container .food-item-right {
-    margin-bottom: 0;
-  }
-}
 #lunches .container .food-item img {
   max-width: 600px;
   padding: 0;
   margin-bottom: 0;
   margin-right: 30px;
+  height: 100%;
 }
 @media (max-width: 500px) {
   #lunches .container .food-item img {

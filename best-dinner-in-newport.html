@@ -265,7 +265,7 @@
 						<h3>Newport RI Restaurants</h3>
 						<p>
 							Copyright &copy;
-							<span id="year">2020</span>
+							<span id="year"></span>
 						</p>
 						<!-- <button
 							class="btn btn-primary"
@@ -293,5 +293,9 @@
 			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			// Get the current year for the copyright
+			$("#year").text(new Date().getFullYear());
+		</script>
 	</body>
 </html>

@@ -335,13 +335,18 @@ font-family: "Montserrat", sans-serif;
   max-width: 705px;
 }
 #lunch-hero .container-fluid h1 {
+  font-size: 1.75rem;
+  color: black;
+  font-weight: 500;
+}
+#lunch-hero .container-fluid h3 {
   color: black;
   font-size: 4.5rem;
   font-weight: 850;
   line-height: 1.2;
 }
 @media (max-width: 500px) {
-  #lunch-hero .container-fluid h1 {
+  #lunch-hero .container-fluid h3 {
     font-size: 3rem;
     font-weight: 710;
     line-height: 1.2;
@@ -357,6 +362,9 @@ font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
     font-weight: 400;
   }
+}
+#intro .meal .jumbotron {
+  padding-bottom: 20px;
 }
 @media (max-width: 500px) {
   #intro .meal .jumbotron {

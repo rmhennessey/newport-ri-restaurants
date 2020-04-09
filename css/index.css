@@ -373,7 +373,6 @@ font-family: "Montserrat", sans-serif;
   padding: 0;
   margin-bottom: 0;
   margin-right: 30px;
-  height: 100%;
 }
 @media (max-width: 500px) {
   #lunches .container .food-item img {

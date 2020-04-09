@@ -316,7 +316,7 @@ font-family: "Montserrat", sans-serif;
   height: 100vw;
   width: 100%;
   max-height: 620px;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 #lunch-hero .container-fluid {
   position: absolute;
@@ -329,7 +329,7 @@ font-family: "Montserrat", sans-serif;
   max-width: 705px;
 }
 #lunch-hero .container-fluid h1 {
-  color: lightgoldenrodyellow;
+  color: black;
   font-size: 4.5rem;
   font-weight: 850;
   line-height: 1.2;
@@ -343,6 +343,7 @@ font-family: "Montserrat", sans-serif;
 }
 #lunch-hero .container-fluid p {
   font-size: 1.75rem;
+  color: black;
   font-weight: 500;
 }
 @media (max-width: 500px) {
@@ -356,6 +357,16 @@ font-family: "Montserrat", sans-serif;
     padding-top: 16px;
     padding-bottom: 16px;
     margin-bottom: 0;
+  }
+}
+@media (max-width: 500px) {
+  #intro .meal .jumbotron h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 500px) {
+  #intro .meal .jumbotron .lead {
+    font-size: 1rem;
   }
 }
 #lunches .container .food-item {

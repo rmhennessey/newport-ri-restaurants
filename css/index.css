@@ -313,7 +313,7 @@ font-family: "Montserrat", sans-serif;
   height: 100vw;
   width: 100%;
   max-height: 620px;
-  opacity: 0.8;
+  opacity: 0.75;
 }
 #lunch-hero .container-fluid {
   position: absolute;
